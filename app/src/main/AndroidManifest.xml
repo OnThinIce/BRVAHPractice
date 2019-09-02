@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zlcp.brvahpractice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.DiffUtilActivity"></activity>
+        <activity android:name=".activitys.SectionMultipleItemUseActivity" />
+        <activity android:name=".activitys.UpFetchUseActivity" />
+        <activity android:name=".activitys.DataBindingUseActivity" />
+        <activity android:name=".activitys.ExpandableUseActivity" />
+        <activity android:name=".activitys.ItemClickActivity" />
+        <activity android:name=".activitys.ItemDragAndSwipeUseActivity" />
+        <activity android:name=".activitys.EmptyVIewUseActivity" />
+        <activity android:name=".activitys.SectionUseActivity" />
+        <activity android:name=".activitys.PullToRefreshUseActivity" />
+        <activity android:name=".activitys.HeaderAndFooterUseActivity" />
+        <activity android:name=".activitys.ChooseMultipleItemUseTypeActivity" />
+        <activity android:name=".activitys.AnimationUseActivity" />
+        <activity android:name=".activitys.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.HomeActivity"
+            android:launchMode="singleTask" />
+    </application>
+
+</manifest>
